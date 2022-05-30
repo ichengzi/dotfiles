@@ -1,0 +1,6 @@
+alias proxy="export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890; env | grep proxy"
+alias unproxy="unset https_proxy http_proxy all_proxy; env | grep proxy"
+
+alias pyhttp="python -m SimpleHTTPServer"
+
+alias cls="clear"
